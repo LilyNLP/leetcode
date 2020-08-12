@@ -1,4 +1,4 @@
-# 自己的解法：双指针法
+# 我的解法：双指针法，与最优解一致
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         j = 0
@@ -9,8 +9,6 @@ class Solution:
         for k in range(j, len(nums)):
             nums.pop()
         return len(nums)
-
-# 最优解： 双指针法，和自己的解法一样
  
 # 延伸问题：如果要删除的元素很少怎么办？
 class Solution:
